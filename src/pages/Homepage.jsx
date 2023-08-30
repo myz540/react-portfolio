@@ -8,6 +8,12 @@ export default function Homepage() {
     <main className={styles.homepage}>
       <section>
         <h1>Mike Zhong's React Portfolio</h1>
+        <h2>
+          Projects completed as part of{" "}
+          <a href="https://www.udemy.com/course/the-ultimate-react-course/">
+            this Udemy course
+          </a>
+        </h2>
         <ProjectList>
           <Project
             title="Pizza Menu"
