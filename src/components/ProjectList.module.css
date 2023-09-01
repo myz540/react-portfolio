@@ -1,6 +1,6 @@
-.projects {
-  list-style: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.projects ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 4.8rem;
 }

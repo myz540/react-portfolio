@@ -1,7 +1,11 @@
 import styles from "./ProjectList.module.css";
 
 function ProjectList({ children }) {
-  return <ul className={styles.projects}>{children}</ul>;
+  return (
+    <div className={styles.projects}>
+      <ul>{children}</ul>
+    </div>
+  );
 }
 
 export default ProjectList;
