@@ -39,6 +39,12 @@ export default function Homepage() {
             imgSrc="UsePopcorn/use-popcorn.png"
             imgAlt="use-popcorn"
           />
+          <Project
+            title="React Quiz"
+            linkTo="react-quiz"
+            imgSrc="wip.png"
+            imgAlt="wip"
+          />
         </ProjectList>
       </section>
     </main>
